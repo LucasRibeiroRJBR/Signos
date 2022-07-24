@@ -13,6 +13,6 @@ def chines():
     return render_template("signo_chines.html",title=title)
 
 if __name__ == "__main__":
-    app.run(debug=True, port=4444)
+    app.run(debug=True)
 
 
