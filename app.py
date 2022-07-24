@@ -7,11 +7,6 @@ def index():
     title = "Signos LTDA"
     return render_template("index.html", title=title)
 
-@app.route("/2")
-def index_2():
-    title = "Index 2"
-    return render_template("index2.html",title=title)
-
 @app.route("/signo_chines")
 def chines():
     title = "Signo Chinês"
