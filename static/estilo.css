@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Macondo&family=Merriweather+Sans:wght@500&family=Oleo+Script:wght@700&display=swap");
 
 * {
-  background: #7204bb;
+  background: #8144E2;
+  background: -webkit-linear-gradient(top left, #8144E2, #5B2CD1);
+  background: -moz-linear-gradient(top left, #8144E2, #5B2CD1);
+  background: linear-gradient(to bottom right, #8144E2, #5B2CD1);
   color: white;
 }
 
